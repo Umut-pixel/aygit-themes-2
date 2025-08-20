@@ -78,6 +78,6 @@ Projeyi Vercel'de deploy etmek için:
 npm run build
 ```
 
-## 👥 Geliştirici
+## Geliştirici
 
 Bu proje modern web teknolojileri kullanılarak Aygıt Yazılım Teknolojileri adına Umut Erol tarafından geliştirilmiştir.
