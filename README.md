@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aygıt Yazılım Teknolojileri
 
-## Getting Started
+Modern ve responsive web sitesi tasarımı. React/Next.js, Tailwind CSS ve shadcn/ui kullanılarak geliştirilmiştir.
 
-First, run the development server:
+## 🚀 Özellikler
 
+- **Modern Tasarım**: Temiz ve profesyonel görünüm
+- **Responsive**: Tüm cihazlarda mükemmel görünüm
+- **Türkçe İçerik**: Tamamen Türkçe arayüz
+- **Component-Based**: Modüler bileşen yapısı
+- **TypeScript**: Tip güvenliği
+- **Tailwind CSS**: Utility-first CSS framework
+- **shadcn/ui**: Modern UI bileşenleri
+
+## 🛠️ Teknolojiler
+
+- **Next.js 15** - React framework
+- **TypeScript** - Tip güvenliği
+- **Tailwind CSS** - Styling
+- **shadcn/ui** - UI bileşenleri
+- **Inter Font** - Modern tipografi
+
+## 📦 Kurulum
+
+1. Projeyi klonlayın:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd aygit-yazilim
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Bağımlılıkları yükleyin:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Geliştirme sunucusunu başlatın:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
 
-## Learn More
+## 🏗️ Proje Yapısı
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── layout.tsx      # Ana layout
+│   ├── page.tsx        # Ana sayfa
+│   └── globals.css     # Global stiller
+├── components/
+│   ├── ui/             # shadcn/ui bileşenleri
+│   ├── Header.tsx      # Header bileşeni
+│   ├── Hero.tsx        # Hero section
+│   ├── Testimonials.tsx # Referanslar bölümü
+│   └── Footer.tsx      # Footer bileşeni
+└── lib/
+    └── utils.ts        # Utility fonksiyonları
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Bileşenler
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Header
+- Logo
+- Navigasyon menüsü
+- Giriş/Kayıt butonları
 
-## Deploy on Vercel
+### Hero
+- Ana başlık
+- Alt başlık
+- Responsive tasarım
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Testimonials
+- Müşteri yorumları
+- Avatar ve profil bilgileri
+- Grid layout
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Footer
+- Logo ve sosyal medya
+- Link grupları
+- Responsive düzen
+
+## 📱 Responsive Tasarım
+
+- **Mobile**: 320px+
+- **Tablet**: 768px+
+- **Desktop**: 1024px+
+
+## 🚀 Deployment
+
+Projeyi Vercel'de deploy etmek için:
+
+```bash
+npm run build
+```
+
+## 📄 Lisans
+
+MIT License
+
+## 👥 Geliştirici
+
+Bu proje modern web teknolojileri kullanılarak geliştirilmiştir.
