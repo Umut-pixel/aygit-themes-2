@@ -2,7 +2,7 @@
 
 Modern ve responsive web sitesi tasarımı. React/Next.js, Tailwind CSS ve shadcn/ui kullanılarak geliştirilmiştir.
 
-## 🚀 Özellikler
+## Özellikler
 
 - **Modern Tasarım**: Temiz ve profesyonel görünüm
 - **Responsive**: Tüm cihazlarda mükemmel görünüm
@@ -12,7 +12,7 @@ Modern ve responsive web sitesi tasarımı. React/Next.js, Tailwind CSS ve shadc
 - **Tailwind CSS**: Utility-first CSS framework
 - **shadcn/ui**: Modern UI bileşenleri
 
-## 🛠️ Teknolojiler
+## Teknolojiler
 
 - **Next.js 15** - React framework
 - **TypeScript** - Tip güvenliği
@@ -20,7 +20,8 @@ Modern ve responsive web sitesi tasarımı. React/Next.js, Tailwind CSS ve shadc
 - **shadcn/ui** - UI bileşenleri
 - **Inter Font** - Modern tipografi
 
-## 📦 Kurulum
+
+##  Kurulum
 
 1. Projeyi klonlayın:
 ```bash
@@ -40,25 +41,8 @@ npm run dev
 
 4. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
 
-## 🏗️ Proje Yapısı
 
-```
-src/
-├── app/
-│   ├── layout.tsx      # Ana layout
-│   ├── page.tsx        # Ana sayfa
-│   └── globals.css     # Global stiller
-├── components/
-│   ├── ui/             # shadcn/ui bileşenleri
-│   ├── Header.tsx      # Header bileşeni
-│   ├── Hero.tsx        # Hero section
-│   ├── Testimonials.tsx # Referanslar bölümü
-│   └── Footer.tsx      # Footer bileşeni
-└── lib/
-    └── utils.ts        # Utility fonksiyonları
-```
-
-## 🎨 Bileşenler
+## Bileşenler
 
 ### Header
 - Logo
@@ -80,13 +64,13 @@ src/
 - Link grupları
 - Responsive düzen
 
-## 📱 Responsive Tasarım
+## Responsive Tasarım
 
 - **Mobile**: 320px+
 - **Tablet**: 768px+
 - **Desktop**: 1024px+
 
-## 🚀 Deployment
+## Deployment
 
 Projeyi Vercel'de deploy etmek için:
 
@@ -94,10 +78,6 @@ Projeyi Vercel'de deploy etmek için:
 npm run build
 ```
 
-## 📄 Lisans
-
-MIT License
-
 ## 👥 Geliştirici
 
-Bu proje modern web teknolojileri kullanılarak geliştirilmiştir.
+Bu proje modern web teknolojileri kullanılarak Aygıt Yazılım Teknolojileri adına Umut Erol tarafından geliştirilmiştir.
